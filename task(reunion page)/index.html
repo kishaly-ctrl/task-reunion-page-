@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reunion Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="background">
+        <div class="form-container">
+            <form>
+                <h1>Reunion Form</h1>
+                <p>Time to rekindle some good ol' memories! See you soon!</p>
+                <hr>
+                <p><strong>Date:</strong> 25-06-2023 | <strong>Time:</strong> 6pm onwards | <strong>Address:</strong> Our garage</p>
+                
+                
+                <label>Would you like to join us? <span class="required">*</span></label>
+                <div class="options">
+                    <label><input type="radio" name="join" required> Yes</label>
+                    <label><input type="radio" name="join"> No</label>
+                </div>
+                
+               
+                <label>Name <span class="required">*</span></label>
+                <div class="name-fields">
+                    <input type="text" placeholder="First" required>
+                    <input type="text" placeholder="Last">
+                </div>
+                
+                
+                <label>Phone <span class="required">*</span></label>
+                <input type="tel" placeholder="Your phone number" required>
+                
+                
+                <label>Your Meal Preference <span class="required">*</span></label>
+                <div class="options">
+                    <label><input type="radio" name="meal" required> Vegetarian</label>
+                    <label><input type="radio" name="meal"> Non-Vegetarian</label>
+                </div>
+                
+               
+                <label>What kind of games are you interested in?</label>
+                <div class="options">
+                    <label><input type="checkbox"> Indoor</label>
+                    <label><input type="checkbox"> Board</label>
+                    <label><input type="checkbox"> Ball games</label>
+                    <label><input type="checkbox"> Outdoor</label>
+                </div>
+                
+                <!-- Questions -->
+                <label>Do you have any questions?</label>
+                <textarea placeholder="Your message"></textarea>
+                
+                <!-- Submit Button -->
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
